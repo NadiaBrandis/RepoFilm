@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>LA GRANDE BELLEZZA:News</title>
+
+    <link rel="stylesheet" href="fogliostile.css" />
+    <script src="java1.js"></script>
+</head>
+<body onload="check()">
+    <header>
+        <h2> LA GRANDE BELLEZZA:News</h2>
+        <nav>
+            <ul id="barra">
+                <li id="lista"><a href="homepage.html">Home</a></li>
+                <li id="lista"><a href="schedaTecnica.html">Scheda Tecnica</a></li>
+                <li id="lista"><a href="news.html">News</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <br /><br />
+    <label>News letter</label>
+    <br />
+    <textarea cols="90" rows="7"></textarea>
+    <br /><br />
+
+    <form>
+        <div id="form">
+            <label>Username</label>
+            <input id="u" type="text" onKeyup="checkform()" />
+        </div>
+        <input id="submitbutton" type="submit" disabled="disabled" value="Subscribe" onclick="save()" />
+        <input id="unsubmitButton" type="button" value="Unsubscribe" style="display:hidden" onclick="unsubscribe()" />
+    </form>
+   
+    <br /><br />
+    <button><a href="homepage.html">Torna alla Home</a></button>
+    <br /><br />
+
+
+
+
+
+</body>
+</html>

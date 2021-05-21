@@ -1,0 +1,80 @@
+1. Descrivere come avviene la trasmissione di messaggi in Internet.
+risposta:
+La rete internet è la più grande infrastruttura che permette lo scambio di dati e informazioni.
+Per la trasmissione di messaggi interne utilizza la commutazione di pacchetto di tipo datagram.
+La commuttazione di pacchetto consiste nello "spacchettamento" del messaggio ,che verrà successivamente 
+riassemblato per arrivare a destinazione, i pacchetti dunque potrebero arrivare " a rate".
+
+2. A partire da un esempio (diverso da quello nel materiale fornito), descrivere tutti i livelli che
+costituiscono un dominio.
+risposta:
+
+il dns è un sistema composto da un database distribuito che mappa il nome simbolico del indirizzo IP.Risurlerebbe 
+complicato effettuare una ricerca direttamente tramite indirizzo IP dunque viene assegnato ad esso un nome più familiare 
+(www.studenti.unica.it) ,questo è organizzato in maniera gerarchica:
+www.studenti.unica.it
+it) livello 1 (gestito da IANA)
+unica)livello 2
+studenti) livello 3
+www)livello 4
+
+3. Spiegare la differenza tra linguaggio di programmazione e linguaggio di markup.
+risposta:
+Il linguaggio di programmazione istruisce una macchina di calcolo. il linguaggio di markup annota un documento .
+
+4. Descrivere la differenza tra pseudo-classi e pseudo-elementi in CSS.
+risposta:
+Una pseudo-classe definisce un particolare stato di un elemento. 
+Grazie alle pseudo-classi possiamo impostare uno stile per un elemento se si verificano determinate condizioni.
+In un foglio di stile si costruisce una regola che fa riferimento a determinati elementi, è come se nel documento 
+venissero inseriti nuovi elementi "fittizi", presenti nel CSS ma non nel
+ codice che definisce la struttura della pagina.
+
+5. Quali sono le tipologie di webStorage? Descriverne le differenze.
+Un'applicazione richiede la persistenza di alcuni dati,questi dati posso essere mantenuti nel server o salvati 
+come cookie,di ciò di occupa il local storage o il session storage.
+
+6. Quale tra i seguenti combinazioni attributo-valore rende valido il seguente tag HTML?
+
+<img attributo=”valore”>
+
+Opzioni per attributo:
+
+c) src
+
+Opzioni per valore:
+
+c) http//www.fruit.com/fruit.png
+
+
+7. Osservando la pagina HTML sotto (dopo la domanda 8), indicare i selettori che consentono
+di selezionare tutti gli elementi li.
+
+.color{} nel file css
+
+8. Osservando la pagina HTML sotto, scrivere la regola CSS che consente di cambiare il colore
+di background (con la stessa regola!) sia dell’elemento il cui id è ‘welcome’ sia degli
+elementi il cui class name è ‘color’.
+
+.color,#welcome{
+background-color:red;
+}
+
+9. Scrivere l’espressione per creare un hyperlink che conduce a www.avanade.com,
+inserendo come testo ‘descrittivo’ Avanade.
+risposta:
+
+<a href="http//www.avanade.com">Avanade</a>
+
+10. Scegli l’elemento HTML corretto per avere l’heading più grande:
+
+b. <h6>
+
+
+
+
+
+
+
+
+

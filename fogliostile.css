@@ -1,0 +1,90 @@
+﻿body
+{
+    background-color:black;
+}
+h1{
+    color:aliceblue;
+    font-size:xx-large;
+    font-family:'Comic Sans MS';
+    text-align:center;
+}
+iframe {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#lista {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+a:hover{
+    background-color:red;
+}
+h2 {
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+#scheda {
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+}
+#trama {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    color: aliceblue;
+    font-size:small;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+footer{
+    color: aliceblue;
+   
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+#news {
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+button {
+    color:black;
+    
+    font-family: 'Comic Sans MS';
+    
+}
+h4 {
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+}
+#formlogin {
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+}
+label {
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
